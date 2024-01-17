@@ -54,6 +54,7 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    margin-top: 50px;
 }
 
 .hero-section h1, p {
