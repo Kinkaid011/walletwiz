@@ -166,3 +166,25 @@ footer {
 }
 
 
+@media (max-width: 768px) {
+    main {
+       margin: 16px; 
+    }
+
+    .hero-section {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 24px;
+    }
+
+    .section-wrapper {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        margin: 50px auto 0 auto;
+        padding: 24px 24px 50px 24px;
+    }
+
+    .wireframes {
+        grid-template-columns: 1fr;
+    }
+}
