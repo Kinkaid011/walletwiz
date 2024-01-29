@@ -187,4 +187,9 @@ footer {
     .wireframes {
         grid-template-columns: 1fr;
     }
+
+    .two-col, .col-two {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
 }
